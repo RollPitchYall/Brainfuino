@@ -1,0 +1,80 @@
+(footprint "1X01_NO_SILK"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole - No Silk Outline\n\nSpecifications:\n\n• Pin count:1\n• Pin pitch:0.1\"\n\nExample device(s):\n\n• CONN_01")
+	(property "Reference" "REF**"
+		(at -1.27 -1.143 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e3ce00d1-2307-424b-aeed-39c8f3ee3a7d")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1X01_NO_SILK"
+		(at -1.27 1.778 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8e12c227-a620-4ac2-bc62-5c4a976f8880")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5edc605-405c-4ffa-a426-32e9b6566db5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5c4bf530-9376-4ae3-9113-3ac84ee534fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy -0.254 0.254) (xy 0.254 0.254) (xy 0.254 -0.254) (xy -0.254 -0.254)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "c72c0a8e-1178-4ab1-8b53-8656e33dffdd")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0 90)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "0c159ddb-b4f2-4b00-9b78-b87ec495a170")
+	)
+	(embedded_fonts no)
+)
