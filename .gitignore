@@ -49,3 +49,21 @@ eagle.epf
 
 # file locks introduced since 7.x
 *.lck
+
+# BrainFuino backups and KiCad
+# Ignore the backups folder created by your workflow
+Brainfuino-backups/
+
+# Ignore common KiCad caches, generated files and backups (keep sources)
+fp-info-cache
+*.kicad_prl
+*.kicad_pcb-bak
+*-bak
+*_bak
+*~
+*.bak
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
